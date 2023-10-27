@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>witchweb.com</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/sourcesanspro-font.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="css/styleacc.css" />
+	<link rel="stylesheet" href="css/kichthuoc.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body class="homepage">
+
+	<!-- Header -->
+
+	<body class="form-v8">
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="index.html">home</a></li>
+				<li><a href="Account.html">Account</a></li>
+				<li><a href="WebShopping.html">WebShopping</a></li>
+				<li><a href="OnAppBuild.html">Start Building with us</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+
+		</nav>
+		<div class="page-content">
+			<div class="form-v8-content">
+				<div class="form-left">
+					<img src="images/form-v8.jpg" alt="form">
+				</div>
+				<div class="form-right">
+					<div class="tab">
+						<div class="tab-inner">
+							<button class="tablinks" onclick="openCity(event, 'sign-up')" id="defaultOpen">Sign
+								Up</button>
+						</div>
+						<div class="tab-inner">
+							<button class="tablinks" onclick="openCity(event, 'sign-in')">Sign In</button>
+						</div>
+					</div>
+					<form class="form-detail" action="#" method="post">
+						<div class="tabcontent" id="sign-up">
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="text" name="full_name" id="name" class="input-text" required>
+									<span class="label">Username</span>
+									<span class="border"></span>
+								</label>
+							</div>
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="text" name="your_email" id="email" class="input-text" required>
+									<span class="label">E-Mail</span>
+									<span class="border"></span>
+								</label>
+							</div>
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="password" name="password" id="password" class="input-text" required>
+									<span class="label">Password</span>
+									<span class="border"></span>
+								</label>
+							</div>
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="password" name="comfirm_password" id="comfirm_password" class="input-text" required>
+									<span class="label">Comfirm Password</span>
+									<span class="border"></span>
+								</label>
+							</div>
+							<div class="form-row-last">
+								<button class="button style1 big" onclick="signUp(event, 'sign-up')">Sign Up</button>
+							</div>
+						</div>
+					</form>
+					<form class="form-detail" action="#" method="post">
+						<div class="tabcontent" id="sign-in">
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="text" name="full_name_1" id="username" class="input-text" required>
+									<span class="label">Username</span>
+									<span class="border"></span>
+								</label>
+							</div>
+
+							<div class="form-row">
+								<label class="form-row-inner">
+									<input type="password" name="password_1" id="password_1" class="input-text"
+										required>
+									<span class="label">Password</span>
+									<span class="border"></span>
+								</label>
+							</div>
+							<input type="submit" name="signin" class="button style1 big" value="Sign in">
+
+						</div>
+
+				</div>
+				    </form>
+			</div>
+            
+		</div>
+		</div>
+		
+		<script src="index.js"></script>
+	</body>
+
+</html>
